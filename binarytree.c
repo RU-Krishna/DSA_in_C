@@ -81,7 +81,10 @@ int main()
                   All the cases belonging to the menu + Default case...
           */
             case '1':
-                    
+                      printf("Enter the element to be inserted\n");
+                      getz(num);
+                      root=insert(root,num);
+                      break;            
             case '2':
                      if(root==NULL)                    //Cheeking for the empty tree before recieving the element for deletion...
                      {
